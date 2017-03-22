@@ -2,9 +2,10 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: mybluemix.net
+  domain: eu-gb.mybluemix.net
   name: Z2C
-  host: Z2C
+  host: fraboe
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - Speech to Text-FB
+    - Text to Speech-FB
