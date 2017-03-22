@@ -66,7 +66,8 @@ function initPage ()
 
     var sessionPermissions = JSON.parse(localStorage.getItem('sessionPermissions')) ? 0 : 1;
     var textString = $("#chat").val();
-    var voice = 'en-US_AllisonVoice';
+/*    var voice = 'en-US_AllisonVoice';  */  
+      var voice = 'de-DE_BirgitVoice';
     var audio = $("#a_player").get(0);
     var synthesizeURL = '/api/text-to-speech/synthesize' +
       '?voice=' + voice +
