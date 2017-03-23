@@ -19,6 +19,7 @@
 var a_player_target = "#a_player";
 var NLC_Button ; var stt_out; var msg_out;
 var _mic; var _stop;
+
 function initPage ()
 {
   document.cookie = "stt-token=";
