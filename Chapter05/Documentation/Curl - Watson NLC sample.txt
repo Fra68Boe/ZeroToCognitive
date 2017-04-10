@@ -1,0 +1,5 @@
+curl -u "ba3874fd-d2b4-4bbe-924a-ee2827323c1f":"ioKI8b7xYDKz" -F training_data=@C:/work/src/github.com/fra68boe/zerotocognitive/chapter05/documentation/industry.csv -F training_metadata="{\"language\":\"en\",\"name\":\"Z2C-Industry2016\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/"
+
+curl -u "ba3874fd-d2b4-4bbe-924a-ee2827323c1f":"ioKI8b7xYDKz" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7b4x199-nlc-36530"
+
+
