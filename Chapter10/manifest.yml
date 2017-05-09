@@ -1,19 +1,19 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 512M
   instances: 1
-  domain: mybluemix.net
+  domain: eu-gb.mybluemix.net
   name: Z2C
   host: Z2C
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
-    - Text to Speech-xx
-    - Natural Language Classifier-xx
-    - Cloudant NoSQL DB-xx
-    - AlchemyAPI-xx
-    - Retrieve and Rank-xx
-    - Conversation-xx
-    - Visual Recognition-xx
-    - Streaming Analytics-xx
-    - Secure Gateway-xx
+    - Speech to Text-FB
+    - Text to Speech-FB
+    - Natural Language Classifier-FB
+    - Cloudant NoSQL DB-FB
+    - AlchemyAPI-FB
+    - Retrieve and Rank-FB
+    - Conversation-FB
+    - Visual Recognition-FB
+    - Streaming Analytics-FB
+    - Secure Gateway-FB
