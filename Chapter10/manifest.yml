@@ -14,6 +14,3 @@ applications:
     - AlchemyAPI-FB
     - Retrieve and Rank-FB
     - Conversation-FB
-    - Visual Recognition-FB
-    - Streaming Analytics-FB
-    - Secure Gateway-FB
